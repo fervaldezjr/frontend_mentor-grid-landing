@@ -72,6 +72,8 @@ nav .nav-list {
     grid-column: 1 / 1;
 
     font-size: 2.5rem;
+
+    padding-top: 1rem;
 }
 
 .hero-text h1 {
@@ -205,6 +207,8 @@ nav .nav-list {
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    padding: 2rem 0;
 }
 
 .service-text .service-title {
@@ -306,8 +310,9 @@ nav .nav-list {
     animation: intro-gradient 3s infinite ease;
     background-size: 200% 200%;
 
-    padding: 1rem 1.5rem;
+    padding: .5rem;
     border-radius: 15px;
+    margin: .5rem;
 
     opacity: 100;
 }
@@ -344,9 +349,9 @@ nav .nav-list {
 }
 
 .works-card .works-button a{
-    margin: 2rem;
+    padding: 1rem;
 
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 500;
     color: #ffffff;
 }
@@ -415,7 +420,7 @@ nav .nav-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 1.3rem;
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .company-cards {
@@ -564,6 +569,10 @@ nav .nav-list {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.footer-social {
+    padding: 1.5rem 0;
 }
 
 .footer-social h6 {
@@ -782,6 +791,23 @@ nav .nav-list {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .hero-text h1 {
+        font-size: 2.5rem;
+    
+        padding-top: 2rem;
+    }
+
+    .hero-text .hero-button {
+        padding: .5rem 1.5rem;
+        margin-top: 1rem;
+    
+        font-size: 1rem;
+    }
+
+    .hero-sections a {
+        font-size: 1.5rem;
+    }
+
     .services-grid {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -803,6 +829,10 @@ nav .nav-list {
         grid-column: 1 / 2;
     }
 
+    .service-text .service-button {
+        font-size: 1rem;
+    }
+
     .works-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -812,11 +842,27 @@ nav .nav-list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
 
-        margin-bottom: 8rem;
+        margin-bottom: 5rem;
     }
 
     .company-content {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .company-cards-margin {
+        margin-top: 0rem;
+    }
+
+    .company-sticky .company-left-title {
+        font-size: 2rem;
+
+        margin: 1.5rem;
+    }
+
+    .company-sticky .company-left-description {
+        font-size: 1rem;
+
+        margin: 1.5rem;
     }
 
     .impact {
@@ -826,9 +872,21 @@ nav .nav-list {
         /* height: 950px; */
     }
 
+    .impact-title h2 {
+        margin-bottom: 1rem;
+    }
+
     .impact-numbers {
         display: flex;
         flex-direction: column;
+    }
+
+    .impact-numbers h4 {
+        font-size: 2rem;
+    }
+
+    .impact-numbers p {
+        font-size: .6rem;
     }
 
     .footer-grid {
@@ -843,6 +901,14 @@ nav .nav-list {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+    }
+
+    .footer-text h5 {
+        font-size: 2.5rem;
+    }
+
+    .footer-sections a {
+        font-size: 1rem;
     }
 
     .footer-sections .footer-whatsapp {
@@ -867,5 +933,9 @@ nav .nav-list {
         border: #80808044 solid 1px;
         border-right: none;
         border-bottom: none;
+    }
+
+    .copy-text {
+        font-size: .7rem;
     }
 }
