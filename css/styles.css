@@ -702,6 +702,14 @@ nav .nav-list {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .hero-text {
+        padding-top: 6rem;
+    }
+
+    .hero-sections a {
+        padding-top: 10rem;
+    }
+
     .services-grid {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -721,6 +729,10 @@ nav .nav-list {
     
     .service-text {
         grid-column: 1 / 2;
+    }
+
+    .service-text .service-title {
+        font-size: 2rem;
     }
 
     .works-grid {
